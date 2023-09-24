@@ -4,31 +4,32 @@ html {
 
 body {
     background-color: #06bcc1;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-    border: 1px solid black;
-    width: 95%;
+    width: 100vw;
     height: 100vh;
-    display: flex;
-}
-
-div:has(button) {
-    text-align: center;
-}
-
-.quotes {
-    width: 900px;
-    height: 450px;
-    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 0 50px;
+    justify-content: space-around;
+
+}
+
+
+.quotes {
+    width: 90vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     color: gray;
     background-color: #f4edea;
-    border: 10px solid #f4d1ae;
+    border-radius: 10px;
+    padding: 0 20px;
 }
 
 .quotes p,
